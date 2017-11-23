@@ -1,8 +1,8 @@
 [
 {
   "modid": "advancedswords",
-  "name": "Advanced Swords",
-  "description": "This mod provides extremely powerful swords along with more flexible sword enchanting.",
+  "name": "More Weapons-craft",
+  "description": "kleiner Testmod",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
@@ -11,6 +11,6 @@
   "credits": "",
   "logoFile": "",
   "screenshots": [],
-  "dependencies": []
+  "dependencies": [],
 }
 ]

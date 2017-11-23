@@ -1,22 +1,19 @@
 package com.advancedcombat.crafting;
 
-import java.util.List;
-import java.util.Map;
-
-import javax.annotation.Nonnull;
-
 import com.advancedcombat.util.ACUtils;
 import com.advancedcombat.util.JointList;
-
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.init.Blocks;
 import net.minecraft.inventory.InventoryCrafting;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemSword;
 import net.minecraft.item.crafting.IRecipe;
 import net.minecraft.util.NonNullList;
 import net.minecraft.world.World;
+
+import javax.annotation.Nonnull;
+import java.util.List;
+import java.util.Map;
 
 public abstract class RecipeEnchantmentUpgrade implements IRecipe {
 	
