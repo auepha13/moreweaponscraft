@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdvancedCombat.iml" filepath="$PROJECT_DIR$/.idea/modules/AdvancedCombat.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdvancedCombat_api.iml" filepath="$PROJECT_DIR$/.idea/modules/AdvancedCombat_api.iml" group="AdvancedCombat" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdvancedCombat_main.iml" filepath="$PROJECT_DIR$/.idea/modules/AdvancedCombat_main.iml" group="AdvancedCombat" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AdvancedCombat_test.iml" filepath="$PROJECT_DIR$/.idea/modules/AdvancedCombat_test.iml" group="AdvancedCombat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_api.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_api.iml" group="MinecraftSchwerter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_main.iml" group="MinecraftSchwerter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_test.iml" group="MinecraftSchwerter" />
     </modules>
   </component>
 </project>
