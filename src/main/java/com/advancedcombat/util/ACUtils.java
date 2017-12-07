@@ -4,8 +4,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.advancedcombat.crafting.RecipeEnchantmentUpgrade;
-
 import net.minecraft.block.Block;
 import net.minecraft.dispenser.IBlockSource;
 import net.minecraft.item.Item;
@@ -30,23 +28,9 @@ public class ACUtils {
     }
 	
 	/** Cached for speed */
-	private static Map<RecipeEnchantmentUpgrade, List<ItemStack>> enchCache = new HashMap();
 	
-	/** Gets all the registered armor, tools, and swords in FML that can be enchanted with the specified upgrade recipe */
-	public static List<ItemStack> getAllEnchantables(RecipeEnchantmentUpgrade u) {
-		if(!enchCache.containsKey(u)) {
-			JointList<ItemStack> list = new JointList();
-			Iterable<Item> allItems = GameData.getItemRegistry().typeSafeIterable();
-			for(Item i : allItems) {
-				ItemStack stack = new ItemStack(i);
-				if(u.getEnchantment().canApply(stack)) {
-					list.add(stack);
-				}
-			}
-			enchCache.put(u, list);
-		}
-		return enchCache.get(u);
-	}
+	
+	
 	
     /** An unlimited type of areItemStacksEqual for crafting recipes (non-amount sensitive, cannot be null) */
     public static boolean areItemStacksEqualForCrafting(ItemStack... stacks) {

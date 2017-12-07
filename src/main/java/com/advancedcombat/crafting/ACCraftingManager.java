@@ -6,18 +6,14 @@ import com.advancedcombat.init.ACItems;
 import com.advancedcombat.init.Swords;
 import com.advancedcombat.items.ItemEnchUpgrade;
 import com.advancedcombat.items.ItemSingleUpgrade;
-import com.advancedcombat.ref.RefStrings;
 import com.advancedcombat.util.JointList;
 import com.advancedcombat.util.StackHelper;
-
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
-import net.minecraftforge.oredict.RecipeSorter;
-import net.minecraftforge.oredict.RecipeSorter.Category;
 
 public class ACCraftingManager {
 	
@@ -212,8 +208,7 @@ public class ACCraftingManager {
 		
 		// upgrades (NEW!)
 		if(ACConfig.enableEnchantmentUpgrades) {
-			RecipeSorter.register(RefStrings.MODID + ":item_enchantment_upgrade", RecipeItemEnchantmentUpgrade.class, Category.SHAPED, "after:minecraft:shaped");
-			for(Item upgrade : ACItems.getEnchantmentUpgrades()) addFlexibleUpgradeRecipe(upgrade);
+		for(Item upgrade : ACItems.getEnchantmentUpgrades()) addFlexibleUpgradeRecipe(upgrade);
 		}
 	
 	}
@@ -234,7 +229,7 @@ public class ACCraftingManager {
 	private static void addFlexibleUpgradeRecipe(Item upgrade) {
 		for(int i = 0; i < (((ItemEnchUpgrade)upgrade).getEnchantment().getMaxLevel() == 1 || 
 				upgrade instanceof ItemSingleUpgrade ? 1 : ItemEnchUpgrade.TIER_COUNT); i++) {
-			GameRegistry.addRecipe(new RecipeFlexibleUpgrade(new ItemStack(upgrade, 1, i)));
+
 		}
 	}
 
