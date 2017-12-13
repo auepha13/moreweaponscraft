@@ -15,8 +15,8 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'//kjljl
 
 version = "1.0.0"
-group= "com.sblectric.advancedcombat" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "advancedcombat"
+group= "com.sblectric.moreweaponscraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = "moreweaponscraft"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8

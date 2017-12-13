@@ -1,13 +1,13 @@
 [
 {
-  "modid": "advancedswords",
-  "name": "TESTEST",
-  "description": "kleiner Testmod",
+  "modid": "moreweaponscraft",
+  "name": "moreweaponscraft",
+  "description": "moreweaponscraft",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["sblectric"],
+  "authorList": ["Atzi, AB3AB3"],
   "credits": "",
   "logoFile": "",
   "screenshots": [],

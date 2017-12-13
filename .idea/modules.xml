@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_api.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_api.iml" group="MinecraftSchwerter" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_main.iml" group="MinecraftSchwerter" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MinecraftSchwerter_test.iml" group="MinecraftSchwerter" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft_api.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft_api.iml" group="MoreWeaponsCraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft_main.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft_main.iml" group="MoreWeaponsCraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft_test.iml" filepath="$PROJECT_DIR$/.idea/modules/MoreWeaponsCraft_test.iml" group="MoreWeaponsCraft" />
     </modules>
   </component>
 </project>
