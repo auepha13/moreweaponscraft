@@ -2,7 +2,6 @@ package com.moreweaponscraft;
 
 import com.moreweaponscraft.proxy.CommonProxy;
 import com.moreweaponscraft.ref.RefStrings;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -33,6 +32,10 @@ public class MoreWeaponsCraft {
 	@EventHandler
 	public void postInit(FMLPostInitializationEvent event) {
 		proxy.postInit(event);
+
+
+	//	ClientCommandHandler.instance.executeCommand(FMLClientHandler.instance().getClientPlayerEntity(), "/say es funktioniert");
+
 	}
 
 }

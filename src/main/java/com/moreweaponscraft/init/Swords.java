@@ -18,6 +18,9 @@ import java.util.List;
 public class Swords {
 	
 	// sword list
+
+
+	//http://www.minecraftforum.net/forums/mapping-and-modding-java-edition/minecraft-mods/modification-development/2459113-how-do-i-make-a-sword-teleport-a-player
 	private static JointList<ISwordAdvanced> swords;
 
 	public static void mainRegistry() {
@@ -46,11 +49,18 @@ public class Swords {
 	private static void setupMaterials() {
 		// regular materials
 		(advancedEmerald = EnumHelper.addToolMaterial("advancedEmerald", 4, 500, 12.0F, 10.0f, 22)).setRepairItem(new ItemStack(Blocks.EMERALD_BLOCK));
-		(advancedDiamond = EnumHelper.addToolMaterial("advancedDiamond", 4, 8192, 24.0F, 20.0F, 5)).setRepairItem(new ItemStack(Blocks.DIAMOND_BLOCK));
+		(advancedDiamond = EnumHelper.addToolMaterial("advancedDiamond", 4, 10000, 50.0F, 50.0F, 5)).setRepairItem(new ItemStack(Blocks.DIAMOND_BLOCK));
 
 		
 
 	}
+
+
+
+
+
+
+
 	
 	/** Define new swords here */
 	private static void addSwords() {
