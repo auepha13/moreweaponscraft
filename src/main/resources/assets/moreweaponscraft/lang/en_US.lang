@@ -6,3 +6,7 @@ itemGroup.asMain=MWC
 item.moreweaponscraft:the_first.name=The First
 item.moreweaponscraft:the_excalibur=The Excalibur
 
+# blocks
+tile.moreweaponscraft:nether_star_block.name=Nether Star Block
+
+

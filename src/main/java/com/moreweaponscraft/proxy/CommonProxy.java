@@ -4,6 +4,7 @@ import com.moreweaponscraft.config.ACConfig;
 import com.moreweaponscraft.crafting.ACCraftingManager;
 import com.moreweaponscraft.creativetabs.ACCreativeTabs;
 import com.moreweaponscraft.events.InformationHandler;
+import com.moreweaponscraft.init.ACBlocks;
 import com.moreweaponscraft.init.ACItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -17,6 +18,7 @@ public class CommonProxy {
 		ACConfig.mainRegistry(event.getSuggestedConfigurationFile());
 		ACCreativeTabs.mainRegistry();
 		ACItems.mainRegistry();
+		ACBlocks.mainRegistry();
 
 	}
 	
